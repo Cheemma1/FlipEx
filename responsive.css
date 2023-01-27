@@ -51,6 +51,9 @@ header {
         row-gap: 2rem;
        
         }
+        .review{
+            overflow: hidden;
+        }
 
         
 }

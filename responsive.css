@@ -46,7 +46,6 @@ header {
 
     .blog-container  {
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
         column-gap: 3rem;
         row-gap: 2rem;
@@ -86,15 +85,8 @@ header {
     .company-cont{
         gap: 0.4rem;
     }
-    .blog-container  {
-        display: flex;
-        justify-content: space-evenly;
-        column-gap: 2rem;
-        row-gap: 2rem;
-       
-        }
     .blog-content{
-        width: 50%;
+        width: 40%;
     }
 }
 

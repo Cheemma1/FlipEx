@@ -210,6 +210,7 @@ width: 60%;
 background-color: #EFF7EB;
 padding: 4rem;
 margin-top: 3rem;
+overflow: hidden;
 }
 .review-txt-mobile {
 font-family: 'Cabinet Grotesk', sans-serif;

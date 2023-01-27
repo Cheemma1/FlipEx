@@ -14,7 +14,12 @@ nav{
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+}
+.navlinks{
+    margin-left: auto;
+}
+.logo{
+    margin-right: auto;
 }
 
 nav::after{
@@ -342,8 +347,8 @@ padding: 0.4rem 0;
 .sign-flex{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 22rem;
+    justify-content: space-between;
+    gap: 5rem;
 }
 .sign-content{
     padding-top: 3rem;

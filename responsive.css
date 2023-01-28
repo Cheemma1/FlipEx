@@ -88,12 +88,18 @@ header {
     }
    .blog-container{
     column-gap: 2rem;
+    flex-wrap: wrap;
    }
     .blog-content{
         width: 40%;
     }
     .review{
         overflow: hidden;
+    }
+    .footer-link{
+        padding: 0 0.2rem;
+        flex-wrap: wrap;
+        column-gap: 1.5rem;
     }
 }
 

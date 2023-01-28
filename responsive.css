@@ -51,9 +51,7 @@ header {
         row-gap: 2rem;
        
         }
-        .review{
-            overflow: hidden;
-        }
+       
 
         
 }
@@ -88,8 +86,14 @@ header {
     .company-cont{
         gap: 0.4rem;
     }
+    .blog-container{
+        gap
+    }
     .blog-content{
         width: 40%;
+    }
+    .review{
+        overflow: hidden;
     }
 }
 

@@ -51,10 +51,11 @@ header {
         row-gap: 3rem;
         text-align: center;
         flex-wrap: wrap;
+        width: 100%;
         }
        
         .blog-content{
-            width: 30rem;
+            width: 50%;
         }
         
 }

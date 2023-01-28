@@ -86,9 +86,9 @@ header {
     .company-cont{
         gap: 0.4rem;
     }
-    .blog-container{
-        gap
-    }
+   .blog-container{
+    column-gap: 2rem;
+   }
     .blog-content{
         width: 40%;
     }
@@ -350,6 +350,10 @@ font-size: 0.9rem;
 .blog-container{
     flex-direction: column;
     gap: 1rem;
+    justify-content: center;
+}
+.blog-content{
+    row-gap: 2rem;
 }
 .blog-container img{
     width: 100%;

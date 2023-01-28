@@ -49,10 +49,13 @@ header {
         justify-content: center;
         column-gap: 3rem;
         row-gap: 3rem;
+        text-align: center;
         flex-wrap: wrap;
         }
        
-
+        .blog-content{
+            width: 50%;
+        }
         
 }
 

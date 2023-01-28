@@ -14,15 +14,22 @@ nav{
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+}
+.navlinks{
+    margin-left: auto;
+}
+.logo{
+    margin-right: auto;
 }
 
 nav::after{
     content: "";
     position: absolute;
     height: 1px;
-    width: 95%;
-    bottom: 45%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 40%;
     background: #1E1E1E;
 }
 .navlinks ul{
@@ -203,6 +210,7 @@ width: 60%;
 background-color: #EFF7EB;
 padding: 4rem;
 margin-top: 3rem;
+overflow: hidden;
 }
 .review-txt-mobile {
 font-family: 'Cabinet Grotesk', sans-serif;
@@ -232,6 +240,7 @@ font-family: 'Cabinet Grotesk', sans-serif;
 .review-container{
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .p2{
@@ -342,8 +351,8 @@ padding: 0.4rem 0;
 .sign-flex{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 22rem;
+    justify-content: space-evenly;
+    gap: 5rem;
 }
 .sign-content{
     padding-top: 3rem;
